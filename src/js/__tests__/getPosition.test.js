@@ -8,4 +8,4 @@ test('getPosition', () => {
   } while (number === position);
   position = number;
   expect(position).not.toBe(0);
-})
+});
