@@ -8,7 +8,7 @@ export default function getPosition() {
   number = Math.abs(number);
   return number;
 }
-character.setAttribute('src', '/src/img/goblin.png');
+character.setAttribute('src', 'https://github.com/netology-code/ahj-homeworks/raw/simplification/dom/pic/goblin.png');
 character.className = 'character';
 setInterval(() => {
   let number;
