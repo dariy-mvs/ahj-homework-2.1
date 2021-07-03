@@ -1,3 +1,4 @@
+import img from '../img/goblin.png';
 const cells = [...document.querySelectorAll('.cell')];
 
 const character = document.createElement('img');
@@ -8,7 +9,9 @@ export default function getPosition() {
   number = Math.abs(number);
   return number;
 }
-character.setAttribute('src', 'https://github.com/netology-code/ahj-homeworks/raw/simplification/dom/pic/goblin.png');
+console.log(img);
+//character.setAttribute('src', 'https://github.com/netology-code/ahj-homeworks/raw/simplification/dom/pic/goblin.png');
+character.src = img;
 character.className = 'character';
 setInterval(() => {
   let number;
